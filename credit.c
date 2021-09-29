@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
 
-// global variables
-
 int main(void)
 {
     // PROMPT input
