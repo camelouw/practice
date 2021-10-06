@@ -5,8 +5,7 @@ int main(void)
 {
     // PROMPT input
     long cc = get_long("Number: ");
-
-
+    
     // card length
     long n = cc;
     int count = 0;
