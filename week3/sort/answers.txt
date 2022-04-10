@@ -1,0 +1,61 @@
+sort1 uses: Bubble Sort
+
+time ./sort1 random50000.txt
+real    0m18.292s
+user    0m6.978s
+sys     0m0.072s
+
+time ./sort1 sorted50000.txt
+real    0m6.311s
+user    0m0.031s
+sys     0m0.091s
+
+time ./sort1 reversed50000.txt
+real    0m14.106s
+user    0m4.937s
+sys     0m0.092s
+
+How do you know?: Faster for already sorted txt file. but slower for non sorted file. 
+
+Omega(n) - shorted runtime on sorted.txt
+big O (n^2) - longest runtime on random.txt
+
+sort2 uses: Merge Sort
+
+time ./sort2 random50000.txt
+real    0m3.606s
+user    0m0.053s
+sys     0m0.083s
+
+time ./sort2 sorted50000.txt
+real    0m3.607s
+user    0m0.032s
+sys     0m0.092s
+
+time ./sort2 reversed50000.txt
+real    0m4.619s
+user    0m0.017s
+sys     0m0.099s
+
+
+How do you know?: By fast the quickest. (n log n) is is constant in upper and lower bounds. Still the fastest whether sorted order or not. 
+
+sort3 uses: Selection Sort
+
+time ./sort2 random50000.txt
+real    0m9.360s
+user    0m2.547s
+sys     0m0.084s
+
+time ./sort3 sorted50000.txt
+real    0m10.150s
+user    0m2.561s
+sys     0m0.089s
+
+time ./sort3 reversed50000.txt
+real    0m9.292s
+user    0m2.579s
+sys     0m0.088s
+
+
+How do you know?: constant result whether sorted or not. if this was ordered for bubble sort it would be faster for sorted50000.txt. 

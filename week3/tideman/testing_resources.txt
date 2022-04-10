@@ -1,0 +1,7 @@
+https://tideman.netlify.app
+
+tests: expected winners: NAME_test.txt
+./tideman Alice Bob Charlie David Emily < DAVID_test.txt 
+./tideman Alice Bob Charlie David Emily Frankie < ALICE_test.txt 
+./tideman Alice Bob Charlie < CHARLIE_test.txt 
+./tideman Alice Bob Charlie David Emily Frankie Geena Henry < BOB_test.txt
